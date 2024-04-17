@@ -1,0 +1,42 @@
+@media screen and (max-width: 1200px) {
+  .stamp-form__form {
+    width: 60vw;
+  }
+}
+
+.god-job__message,
+.today {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.stamp-form__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stamp-form__group {
+    margin: 20px;
+}
+
+.stamp-form__input {
+    width: 500px;
+    height: 200px;
+    font-size: 24px;
+    background-color: #FFF;
+    border-radius: 5px;
+    border: 2px solid #DCDCDC;
+    cursor: pointer;
+}
+
+.stamp-form__input:hover {
+  border: 2px solid #2196f3;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}

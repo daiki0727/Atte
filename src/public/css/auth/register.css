@@ -1,0 +1,51 @@
+.register-form__inner {
+  display: flex;
+  justify-content: center;
+}
+
+.register-form__heading {
+    text-align: center;
+    padding: 50px 20px 20px 20px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .register-form__form {
+    width: 60vw;
+  }
+}
+
+.register-form__group {
+    margin-bottom: 10px;
+}
+
+.register-form__input {
+  display: block;
+  width: 400px;
+  height: 42px;
+  padding: 3px 7px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+}
+
+.register-form__input:focus,
+.register-form__btn:focus {
+  outline: 0;
+  border: 2px solid #2196f3;
+}
+
+.register-form__btn {
+    width: 400px;
+    height: 40px;
+    background-color: #4169E1;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 2px solid #4169E1;
+    font-weight: bolder;
+}
+
+.login__btn {
+  text-align: center;
+  margin-bottom: 100px;
+}
+

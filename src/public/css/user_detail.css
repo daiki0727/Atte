@@ -1,0 +1,42 @@
+.user-detail__inner{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 20px 70px 10px 150px;
+}
+
+.back__btn{
+    width: 70px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #4169E1;
+    border-radius: 5px;
+    border: 2px solid #4169E1;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 35px;
+    
+}
+
+.user-name{
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.user__table {
+    margin: 30px auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.user__row {
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+}
+
+.user__label,
+.user__data {
+    text-align: center;
+    padding: 20px;
+}

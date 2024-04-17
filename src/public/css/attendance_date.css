@@ -1,0 +1,43 @@
+.date-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.date-form__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.today {
+    font-size: 20px;
+    margin: 30px;
+}
+
+.yesterday,
+.tomorrow {
+    width: 30px;
+    background-color: #FFF;
+    color: #4169E1;
+    border: 2px solid #4169E1;
+    font-weight: bold;
+}
+
+.user__table {
+    margin: 20px auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.user__row {
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+}
+
+.user__label,
+.user__data {
+    text-align: center;
+    padding: 20px;
+}
